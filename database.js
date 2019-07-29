@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const con = mysql.createConnection({
-  host: "team624.org",
-  user: "624dev",
-  password: "yoloswag624",
-  database: "teamdatatest"
+  host: /*ENTER HOST HERE*/,
+  user: /*ENTER DB USER HERE*/,
+  password:/*ENTER PASSWORD HERE*/,
+  database: /*ENTER DB NAME HERE*/
 });
 
 var utils = require('./utils.js')
